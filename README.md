@@ -1,2 +1,1 @@
-# demstershafer
-berkas tugas akhir kuliah
+# Diagnosa Penyakit dengan Dempster-Shafer
