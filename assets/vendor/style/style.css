@@ -1,0 +1,66 @@
+.sidebarr {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.bodyy {
+    background-color: #3F3F44;
+}
+
+.cusbg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 250px;
+}
+
+.imgsatu {
+    background-image: url('../../img/loyal-medical-banner.jpg');
+}
+
+.imgdua {
+    background-image: url('../../img/Preteen-girl-visits-doctor-office-for-checkup-1200x628-facebook-1-1200x628.webp');
+}
+
+
+#animated-updown {
+    position: relative;
+    animation: moveUpDown 3s infinite;
+}
+
+@keyframes moveUpDown {
+    0% {
+        bottom: 0;
+    }
+
+    20% {
+        bottom: 20px;
+    }
+
+    40% {
+        bottom: 10px;
+    }
+
+    60% {
+        bottom: -10px;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}
+
+#sembunyi {
+    display: block;
+}
+
+/* Custom CSS for sticky table header */
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
